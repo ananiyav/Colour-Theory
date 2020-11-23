@@ -1,0 +1,250 @@
+
+
+.title{
+
+    font-size: 40px;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.generate{
+  font-size: 20px;
+  background-color: black;
+  font-family: 'Bebas Neue', cursive;
+  color:white;
+  float:right;
+  display:inline-block
+  
+ 
+}
+
+.nav{
+  display: block;
+  position: relative;
+  width:100%;
+  text-align: center;  
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover{
+ text-decoration:underline;  
+}
+
+body{
+    background-color: black;
+}
+
+
+.container {
+    height: 200px;
+    width:200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  
+  .cell {
+    height:400px;
+    width:400px;
+  }
+  
+  
+  .cell-1 {
+    background: rgb(255, 0, 234);
+  }
+  .cell-1:hover{
+    background-color: rgb(253, 121, 235);
+
+}
+  .cell-2 {
+    background: orangered;
+  }
+  .cell-2:hover {
+    background: rgb(247, 139, 99);
+  }
+  .cell-3 {
+    background: rgb(0, 59, 236);
+  }
+  .cell-3:hover {
+    background: rgb(91, 125, 228);
+  }
+  .cell-4 {
+    background: rgb(255, 242, 0);
+  }
+  .cell-4:hover {
+    background: rgb(255, 255, 138);
+  }
+  .cell-5 {
+    background: blueviolet;
+  }
+  .cell-5:hover {
+    background: rgb(179, 129, 226);
+  }
+  .cell-6 {
+    background: limegreen;
+  }
+  .cell-6:hover {
+    background: rgb(111, 196, 111);
+  }
+  .cell-7 {
+    background: coral;
+  }
+  .cell-7:hover {
+    background: rgb(243, 168, 141);
+  }
+  .cell-8 {
+    background: rgb(85, 6, 255);
+  }
+  .cell-8:hover {
+    background: rgb(98, 67, 223);
+  }
+  .cell-9 {
+    background: rgb(247, 142, 247);
+  }
+  .cell-9:hover {
+    background: rgb(250, 188, 250);
+  }
+  .cell-10 {
+    background: rgb(117, 211, 243);
+  }
+  .cell-10:hover{
+    background-color: rgb(158, 221, 241);
+
+}
+  .cell-11 {
+    background:rgb(204, 255, 153);
+  }
+  .cell-11:hover {
+    background:rgb(235, 247, 224);
+  }
+  .cell-12 {
+    background: rgb(0, 0, 153);
+  }
+  .cell-12:hover {
+    background: rgb(56, 56, 148);
+  }
+  .cell-13 {
+    background: rgb(90, 1, 90);
+  }
+  .cell-13:hover {
+    background: rgb(143, 76, 143);
+  }
+  .cell-14 {
+    background: rgb(0, 102, 0);
+  }
+  .cell-14:hover {
+    background: rgb(68, 109, 68);
+  }
+  .cell-15 {
+    background: red;
+  }
+  .cell-15:hover {
+    background: rgb(252, 142, 142);
+  }
+  .cell-16 {
+    background: rgb(204, 153, 255);
+  }
+  .cell-16:hover {
+    background: rgb(230, 213, 247);
+  }
+  .cell-17 {
+    background: rgb(2, 255, 183)
+  }
+    .cell-17:hover {
+        background: rgb(112, 238, 202);
+      }
+  
+  .cell-18 {
+    background: maroon;
+  }
+  .cell-18:hover {
+    background: rgb(128, 71, 71);
+  }
+ 
+  
+ 
+
+  
+ /*FOR PHONE*/
+
+ @media only screen and 
+ (max-width:400px) {
+   .container {  grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;}
+  .cell-1, .cell-2, .cell-3, .cell-4, .cell-5, .cell-6, .cell-7, .cell-8, .cell-9, .cell-10,.cell-11,.cell-12,.cell-13,.cell-14,.cell-15,.cell-16,.cell-17,.cell-18, .cell-19, .cell-20, .cell-21, .cell-22, .cell-23, .cell-24{
+    grid-column: auto;
+    grid-row: auto;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+  }
+ }
+
+ @media only screen and 
+ (min-width: 400px) {
+   .container {  grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;}
+  .cell-1, .cell-2, .cell-3, .cell-4, .cell-5, .cell-6, .cell-7, .cell-8, .cell-9, .cell-10,.cell-11,.cell-12,.cell-13,.cell-14,.cell-15,.cell-16,.cell-17,.cell-18, .cell-19, .cell-20, .cell-21, .cell-22, .cell-23, .cell-24{
+    grid-column: auto;
+    grid-row: auto;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+  }
+ }
+
+ @media only screen and 
+ (min-width: 600px) {
+   .container {  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;}
+  .cell-1, .cell-2, .cell-3, .cell-4, .cell-5, .cell-6, .cell-7, .cell-8, .cell-9, .cell-10,.cell-11,.cell-12,.cell-13,.cell-14,.cell-15,.cell-16,.cell-17,.cell-18, .cell-19, .cell-20, .cell-21, .cell-22, .cell-23, .cell-24{
+    grid-column: auto;
+    grid-row: auto;
+    width: 100px;
+    height: 100px
+  }
+ }
+
+ @media only screen and 
+ (min-width: 700px) {
+   .container {  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;}
+  .cell-1, .cell-2, .cell-3, .cell-4, .cell-5, .cell-6, .cell-7, .cell-8, .cell-9, .cell-10,.cell-11,.cell-12,.cell-13,.cell-14,.cell-15,.cell-16,.cell-17,.cell-18, .cell-19, .cell-20, .cell-21, .cell-22, .cell-23, .cell-24{
+    grid-column: auto;
+    grid-row: auto;
+    width: 130px;
+    height: 130px
+  }
+ }
+ @media only screen and 
+ (min-width: 800px) {
+   .container {  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;}
+  .cell-1, .cell-2, .cell-3, .cell-4, .cell-5, .cell-6, .cell-7, .cell-8, .cell-9, .cell-10,.cell-11,.cell-12,.cell-13,.cell-14,.cell-15,.cell-16,.cell-17,.cell-18, .cell-19, .cell-20, .cell-21, .cell-22, .cell-23, .cell-24{
+    grid-column: auto;
+    grid-row: auto;
+    width: 150px;
+    height: 150px
+  }
+ }
+
+ @media only screen and 
+ (min-width: 950px) {
+   .container {  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;}
+  .cell-1, .cell-2, .cell-3, .cell-4, .cell-5, .cell-6, .cell-7, .cell-8, .cell-9, .cell-10,.cell-11,.cell-12,.cell-13,.cell-14,.cell-15,.cell-16,.cell-17,.cell-18, .cell-19, .cell-20, .cell-21, .cell-22, .cell-23, .cell-24{
+    grid-column: auto;
+    grid-row: auto;
+    width: 210px;
+    height: 210px
+  }
+ }
