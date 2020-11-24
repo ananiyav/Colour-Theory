@@ -50,6 +50,8 @@ body{
     padding:30px;
     width: 560px;
     height:315px; 
+    align-items: center;
+    justify-content: center;
 }    
 
 #go-top-button {
