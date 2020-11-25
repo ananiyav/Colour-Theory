@@ -46,19 +46,23 @@ body{
 #image{
     width:50%;
     width:800px;
-    padding:20px;
+    padding:30px;
     display:block;
     margin-left:auto;
     margin-right:auto;
 }
 
-.video{
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
-    padding:30px;
+.video {
+    text-align: center;
+    width: 100%;
 
-}    
+}
+
+iframe {
+    width: 540px;
+    height: 300px;
+    
+}   
 
 #go-top-button {
     border-radius: 50%;
@@ -82,5 +86,10 @@ padding:10px;}
 
 #image{
     width:300px;
+}
+
+iframe{
+    width:300px;
+    height:auto;
 }
     }
